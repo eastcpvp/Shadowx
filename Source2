@@ -1972,12 +1972,14 @@ QuestNeta = function()
     }
 end
 
-local Library = loadstring(game:HttpGet("https://pastefy.app/28c5ZUsm/raw"))()
+local Library = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/eastcpvp/Shadowx/refs/heads/main/Source"
+))()
 
 local Window = Library:MakeWindow({
-  Title = "TrongNguyen : Blox Fruits",
-  SubTitle = "by NguyenHoangTrong",
-  ScriptFolder = "RedzLibraryBF"
+    Title = "TrongNguyen : Blox Fruits",
+    SubTitle = "by NguyenHoangTrong",
+    ScriptFolder = "RedzLibraryBF"
 })
 
 local Minimizer = Window:NewMinimizer({
@@ -2016,11 +2018,11 @@ local Info = Window:MakeTab({
 Info:AddDiscordInvite({
 	Title = "Join Discord",
 	Description = "",
-	Banner = "rbxassetid://120213707198275", 
-	Logo = "rbxassetid://120213707198275",
-	Invite = "https://discord.com/invite/s4sMmn7BrQ",
-	Members = 2000, 
-	Online = 204, 
+	Banner = "", 
+	Logo = "",
+	Invite = "Invite currently unavailable",
+	Members = 0, 
+	Online = 0, 
 })
 
 local Farming = Window:MakeTab({
