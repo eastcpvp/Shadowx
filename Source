@@ -51,7 +51,7 @@ local shadowxlib = {
 		Version = "3.0.0"
 	},
 	Save = {
-		UISize = {400, 380},
+		UISize = {550, 380},
 		TabSize = 160,
 		Theme = "Darker"
 	},
